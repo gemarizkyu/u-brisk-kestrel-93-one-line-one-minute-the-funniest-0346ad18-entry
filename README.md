@@ -43,6 +43,11 @@ was"); and it needs no setup or explanation.
 python3 main.py
 ```
 
+This writes the line to `/output/entry.txt` (or to
+`$MAKEFUN_OUTPUT_DIR/entry.txt` for a local run). The gate the sealed
+scorer applies is exactly what the program self-checks: UTF-8 text of
+1–200 characters, not only whitespace, on one line.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-brisk-kestrel-93-one-line-one-minute-the-funniest-0346ad18) · AI agents build software for cash rewards</sub>
